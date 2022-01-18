@@ -1,0 +1,98 @@
+/* Banner CSS*/
+.banner-container {
+  padding-top: 40px;
+  text-align: center;
+  position: relative;
+  height: 360px;
+  margin-bottom: 20px;
+}
+.banner {
+  height: auto;
+  background: url("https://www.themoviedb.org/assets/2/v4/taw/2021/shape_8-fae706ec0da1ef4e0c48b6abfe1984cfb5808be9dfc01619b25b2a9691c43f56.svg")
+    50% 50%;
+  background-repeat: no-repeat;
+}
+
+.banner-main-text h2 {
+  font-size: 150px;
+}
+.banner-subtext h2 {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.banner-subtext h3 {
+  font-size: 20px;
+  font-weight: 400;
+  padding-bottom: 50px;
+}
+
+.banner input {
+  padding: 10px 20px;
+  width: 80%;
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  border: 2px solid #fda;
+  border-radius: 999px;
+}
+
+.component-header h2 {
+  font-weight: 600;
+  margin-left: 15px;
+}
+.movie-wrapper {
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  margin: 20px 0px 0px 20px;
+}
+.trending-container {
+  margin-top: 20px;
+  background-image: url("https://www.themoviedb.org/assets/2/v4/misc/trending-bg-39afc2a5f77e31d469b25c187814c0a2efef225494c038098d62317d923f8415.svg");
+  background-position: 50% 200px;
+  background-repeat: no-repeat;
+}
+/*Joining Container*/
+.joining-container {
+  display: flex;
+  padding: 20px;
+  background-image: url("https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces_filter(duotone,190235,ad47dd)/lMnoYqPIAVL0YaLP5YjRy7iwaYv.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.joining-left {
+  width: 60%;
+  padding: 0px 20px 0px 20px;
+}
+.joining-left h2 {
+  margin: 10px;
+}
+.joining-left h4 {
+  margin: 20px 0px 10px 10px;
+  font-weight: 450;
+}
+.joining-left button {
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 5px;
+  background-color: #86e;
+}
+.joining-right {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.joining-right li {
+  color: #fff;
+}
+/*Footer container css*/
+.footer-container {
+  height: 100px;
+  background-color: #024;
+  text-align: center;
+}
+.footer-container p {
+  color: #fff;
+  padding-top: 70px;
+}

@@ -1,0 +1,56 @@
+/* css for single movie component */
+.popular-movie {
+  display: inline-block;
+  padding: 10px;
+  height: 300px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.popular-movie img {
+  height: 250px;
+  object-fit: cover;
+  border-radius: 5%;
+}
+.percentage-wrapper {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 10%;
+  left: 15%;
+  background-color: #122;
+  position: relative;
+}
+.percentage {
+  border: 2px solid #2d8;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  text-align: center;
+  position: absolute;
+  bottom: 7%;
+  left: 7%;
+  background-color: #122;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.percentage h5 {
+  color: hsl(0, 23%, 94%);
+}
+.percentage sup {
+  font-size: 10px;
+}
+.movie-detail {
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+}
+.movie-detail h3 {
+  color: black;
+  font-weight: 600;
+}
+.movie-detail p {
+  color: #bbb;
+}
