@@ -81,9 +81,7 @@ function Homepage() {
               and filter for <i>what to watch next— </i>regardless if it's in
               theatres, on TV or available on popular streaming services like .
             </h4>
-            <button type="submit">
-              <p>Sign Up</p>
-            </button>
+            <button type="submit">Sign Up</button>
           </div>
           <div className="joining-right">
             <ul>
